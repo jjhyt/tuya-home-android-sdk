@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
-import com.tuya.smart.android.demo.TuyaSmartApp;
+import com.tuya.smart.android.demo.ZhihuiZhaoming;
 import com.tuya.smart.android.user.bean.User;
 import com.tuya.smart.home.sdk.TuyaHomeSdk;
 import com.tuya.smart.home.sdk.bean.HomeBean;
@@ -22,7 +22,7 @@ public class FamilySpHelper {
     public static final String TAG = FamilySpHelper.class.getSimpleName();
 
     public FamilySpHelper() {
-        mPreferences = TuyaSmartApp.getAppContext().getSharedPreferences(
+        mPreferences = ZhihuiZhaoming.getAppContext().getSharedPreferences(
                 PREFERENCE_NAME, Context.MODE_PRIVATE);
     }
 

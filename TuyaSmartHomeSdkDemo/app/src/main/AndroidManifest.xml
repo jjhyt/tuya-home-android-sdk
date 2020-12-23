@@ -29,7 +29,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name=".TuyaSmartApp"
+        android:name=".ZhihuiZhaoming"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -39,10 +39,10 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="TUYA_SMART_APPKEY"
-            android:value="YOUR TUYA_SMART_APPKEY !" />
+            android:value="9yxnsny5jaesfn5vs7a9" />
         <meta-data
             android:name="TUYA_SMART_SECRET"
-            android:value="YOUR TUYA_SMART_SECRET !" />
+            android:value="rkexpk5fcyupghsxkuwuh75vqq44nwuv" />
 
         <activity
             android:name=".base.activity.SplashActivity"

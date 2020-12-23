@@ -4,16 +4,24 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "com.test.homesdkdemo"
+        applicationId "APPshizhanyin.Android"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         multiDexEnabled true
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a"
         }
+    }
+    //以下这段添加Build文件名
+    android.applicationVariants.all{
+        variant ->
+            variant.outputs.all{
+                //这里是APK名字
+                outputFileName = "ZhihuiZhaoming.apk"
+            }
     }
     buildTypes {
         debug {

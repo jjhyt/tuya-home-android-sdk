@@ -189,7 +189,7 @@
     <string name="add_new_user_tip">添加新成员使用智能设备</string>
     <string name="add_next_device">再添加一个</string>
     <string name="ap_mode">热点模式</string>
-    <string name="app_name">涂鸦测试</string>
+    <string name="app_name">智慧照明</string>
     <string name="bind_device_cancel">否</string>
     <string name="bind_device_confirm">是</string>
     <string name="bind_device_failure"><![CDATA[<font color="#FF5800">查看可能失败的原因</font>]]></string>
